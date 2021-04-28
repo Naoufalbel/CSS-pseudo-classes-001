@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.link-1 a:hover {
+    color: red;
+    font-weight: bold;
+}
+
+.link-2 a:active {
+    color: red;
+    font-style: italic;
+}
+
+.link-3 a:visited {
+    color: yellow;
+}
+
+.inputbox:focus {
+    color: green;
+    font-size: 20px;
+}
+
+.inputbox {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+h1 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+ul {
+    margin-left: 13px;
+    padding: 0;
+}
+
+/*Styling voor de navbar*/
+
+.navbar {
+    display: flex;
+    background-color: darkblue;
+    padding: 10px 10px 10px 0;
+    margin-bottom: 10px;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    padding-left: 10px;
+}
+
+.navbar li {
+    margin-right: 20px;
+}
+
+.currentPage {
+    background-color: grey;
+}
+
+.navbar a:hover {
+    background-color: lightblue;
+}
+
+.navbar .zoekbox:focus {
+    border: 5px solid aqua;
+}
